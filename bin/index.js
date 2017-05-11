@@ -1,7 +1,8 @@
 process.on('unhandledRejection', e => {
   throw e;
 });
-
+const inquirer = require('inquirer');
+inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
 const wrapWithConfig = require('../lib/with-config.js');
 
 require('yargs')
