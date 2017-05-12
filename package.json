@@ -1,7 +1,10 @@
 {
   "name": "github-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A cli for managing github workflows with issues, projects, and pull requests",
+  "bin": {
+    "gg": "./bin/index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

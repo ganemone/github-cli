@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 process.on('unhandledRejection', e => {
   throw e;
 });
