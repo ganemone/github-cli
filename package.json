@@ -18,6 +18,7 @@
     "github": "^9.2.0",
     "inquirer": "^3.0.6",
     "inquirer-autocomplete-prompt": "^0.8.0",
+    "request": "^2.81.0",
     "yargs": "^8.0.1"
   },
   "devDependencies": {
